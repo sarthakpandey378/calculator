@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.calculator{
+    background-color: blue;
+    width:30%;
+    align-items: center;
+    margin: 2rem 33rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    
+}
+#display-value{
+    margin: 30px 40px;
+    width:25vw;
+    height: 6rem;
+    border: 2px solid black;
+    border-radius: 10px ;
+    font-size:xx-large;
+    
+}
+.button-box{
+    display:flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    
+}
+
+
+.btn{
+    width: 79px;
+    height:50px;
+    margin:19px;
+    font-size:x-large;
+    border:2px solid black;
+    cursor:pointer;
+   }
